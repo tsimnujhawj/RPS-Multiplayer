@@ -12,8 +12,11 @@ var config = {
   firebase.initializeApp(config);
 
 // Player name variables
-let playerOne = "Player One"
+// Prompt for testing purposes
+var playerNamePick = prompt("What is your name?")
+let playerOne = playerNamePick;
 let playerTwo = "Player Two"
+
 
 // Display Player names
   $("#player-one").html(playerOne);
